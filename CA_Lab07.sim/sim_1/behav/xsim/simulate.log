@@ -1,0 +1,18 @@
+Vivado Simulator 2020.1
+Time resolution is 1 ps
+---------------------------------------------
+x1 = 10101010
+x2 = 01010101
+ADD: 10101010 + 01010101 = 11111111
+SUB: 10101010 - 01010101 = 0f0f0f0f
+AND: 10101010 & 01010101 = 00000000
+OR: 10101010 | 01010101 = 11111111
+XOR: 10101010 ^ 01010101 = 11111111
+SLL: 10101010 << 00000005 = 02020200
+SRL: 10101010 >> 00000005 = 00808080
+BEQ TEST PASS: Values are equal
+x0 TEST PASS
+---------------------------------------------
+INTEGRATED RF + ALU TEST COMPLETE
+---------------------------------------------
+$finish called at time : 130 ns : File "C:/Users/USER/Desktop/CA_Lab07/CA_Lab07.srcs/sim_1/new/RF_ALU_Testbench.v" Line 375
